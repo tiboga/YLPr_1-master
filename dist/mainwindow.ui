@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1195</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>staldir</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1161</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <column>
+        <property name="text">
+         <string>Наименование</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Класс</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Ранг</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Бартер</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Вес</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Урон</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Макс. дистанция</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Скорострельность</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Перезарядка</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Разброс</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Разброс от бедра</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Отдача</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Гориз. Отдача</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Доставание</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Прицеливание</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Шанс клина</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="addbutton">
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="delbutton">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1195</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Наименование</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Класс</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Ранг</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Бартер</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Вес</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Урон</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Макс. дистанция</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Скорострельность</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Перезарядка</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Разброс</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Разброс от бедра</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Отдача</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Гориз. Отдача</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Доставание</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Прицеливание</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Шанс клина</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Вводите</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="no">
+   <property name="geometry">
+    <rect>
+     <x>354</x>
+     <y>550</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>no</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>550</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="errlabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>201</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
